@@ -1,0 +1,24 @@
+
+# Data Science
+
+The world of data science covers quiet the range of topics. As the name suggests, data science encompasses anything and everything we can do with data. Data itself can take a myriad of forms from spreadsheets, text files, json and databases. Some of this data is *clean* in that it is well formatted and consistently populated, while others have many anomolies and idosyncracies that need to be accounted for before further techniques can be applied. Once this preprocessing has been done, techniques such as regression, classification and neural networks are applied in order to predict useful outputs such as predicting a value, suggesting a movie recommendation or producing a self driving car. Throughout this course, we will begin to explore many of these techniques, and how to use them in practice. To get us started, here's an overview of some of the most important concepts and algorithms in data science.
+
+# Preprocessing, Data Munging and Exploratory Data Analysis
+
+A common phrase amongst the data community is that half the battle is cleaning and transforming your data into a useable format. (Often the figure of 80% of your time is thrown around, although I have yet to see any hard data science projects confirming such a statement.) The first question is always 'what data is available'? There could be a large company database of customer records for you to mine. Perhaps you also want to tie that data to the census to compare sales data to the general population demographics. Once you have identified some potentially useful datasets, the next step is outlinining how to combine those various datasets into a useful format. There may also be substantial problems with the data. Imagine a survey with optional questions; some will be filled and others blank. If your data is machine generated, perhaps there was defect and false records were introduced. What happens if someone's computer crashed while filling out several pages of a checkout page? Tracing back the origins of your dataset and identifying missing or misformated data can be a lenghty process before being able to run further analyses and techniques.
+
+# Machine Learning
+
+One of the most exciting topics within data science is machine learning. This covers a wide range of topics and algorithms but generally refers to the ability of a computer algorithms to create predictive models that can generalize the structure of data and apply that knowledge to future cases.  
+
+At the highest level, we generally further divide the realm of machine learning into two major topics: supervised learning and unsupervised learning. 
+
+# Supervised learning
+**Supervised learning** refers to any algorithm in which you feed the computer a dataset that has been split into two sets: input (X) and output (y). The algorithm then generalizes a mapping from the input space to the output space. This can be used in a variety of contexts such as predicting the value of a house given various information about the house (bedrooms, square footage, locations, etc.) to predicting the species of a tree given information about the tree (color, height, location, etc.). The two most important subcategories of supervised learning are **regression** and **classification**. Regression algorithms predict a quantitatitve value, such as home price mentioned, but could be any numerical value such as a rating, price or size. Classification algorithms predict a categorical variable such as species, gender, class, country, or any binning or grouping. This distinction is made because the methods for evaluating how effective our supervised machine learning algorithm was depends on whether our prediction was a number or a category.
+
+# Unsupervised Learning
+
+The other category of machine learning algorithms are known as **unsupervised learning** algorithms. These algorithms are different in that we don't split the data into input and output sets. Instead, we feed the entire dataset to the algorithm in the hopes of learning more about the structure of the data itself. One large category of algorithms are **clustering algorithms**, which group similar observations or similar features from the data into homogeneous clusters. This can be useful for finding similar products, similar people, or similar measurements. Another large category of unsupervised learning algorithms are **dimensionality reduction** algorithms. This can be useful for visualizing higher order data (we can only graph data  in 2-d or 3-d) or as a preprocessing technique that can improve results of other algorithms when there is too many features present in the data. 
+
+# Topics for further Exploration
+While outside the scope of this course, two other popular realms of data science are **deep learning** and **natrual language processing (NLP)**. 
